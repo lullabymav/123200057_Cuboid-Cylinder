@@ -5,8 +5,6 @@
  */
 package calculation;
 
-import java.util.Scanner;
-
 /**
  *
  * @author Lenovo
@@ -17,9 +15,7 @@ public class PersegiPanjang implements MenghitungBidang{
     public double width;
     public double areaResult;
     public double circumResult;
-    
-    Scanner input = new Scanner(System.in);
-    
+        
     // constructor
     public PersegiPanjang (double length, double width){
         this.length = length;

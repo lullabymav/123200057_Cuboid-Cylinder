@@ -5,8 +5,6 @@
  */
 package calculation;
 
-import java.util.Scanner;
-
 /**
  *
  * @author Lenovo
@@ -16,9 +14,7 @@ public class Balok extends PersegiPanjang implements MenghitungRuang{
     public double height;
     public double volumeResult;
     public double surfaceResult;
-    
-    Scanner input = new Scanner(System.in);
-    
+        
     // constructor  
     public Balok (double height, double length, double width){
         super(length, width);

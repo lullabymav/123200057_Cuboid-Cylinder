@@ -74,11 +74,11 @@ public class main {
                 callTb.surface();
                 System.out.printf("Luas Permukaan Tabung : %.2f\n",callTb.surfaceResult);   
             }
-            else if (choose != 1 || choose != 2 || choose != 0){
-                System.out.println("Wrong Input");
+            else if (choose == 0){
+                System.exit(0);                
             }
             else {
-                System.exit(0);
+                System.out.println("Wrong Input");
             }
             System.out.print("Ulangi? (Ya : 1 || Tidak : 0) ");
             choose = input.nextInt();

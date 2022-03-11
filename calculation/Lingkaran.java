@@ -5,8 +5,6 @@
  */
 package calculation;
 
-import java.util.Scanner;
-
 /**
  *
  * @author Lenovo
